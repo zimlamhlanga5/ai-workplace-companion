@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
+
 import { PageHeader } from "@/components/PageHeader";
 import { AiDisclaimer } from "@/components/AiDisclaimer";
 import { MarkdownView } from "@/components/MarkdownView";
@@ -72,8 +72,6 @@ function Page() {
           </div>
         </CardContent>
       </Card>
-      {/* hidden textarea reference to keep import linter happy if unused */}
-      <Textarea className="hidden" />
     </div>
   );
 }
